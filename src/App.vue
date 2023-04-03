@@ -5,6 +5,7 @@ const treeData = ref([
 	{
 		label: "一级1",
 		level: 1,
+		open: true,
 		children: [
 			{
 				label: "二级1-1",
@@ -16,6 +17,7 @@ const treeData = ref([
 	{
 		label: "一级2",
 		level: 1,
+		open: false,
 		children: [
 			{
 				label: "二级2-1",
