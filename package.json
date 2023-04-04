@@ -5,6 +5,10 @@
   "repository": "git@github.com:Zuowendong/tree-component.git",
   "author": "zuowendong <17326195691@163.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "esbuild --bundle ./src/index.js --format=cjs --platform=node --outdir=./lib --watch",
+    "cli": "node ./lib/index.js create"
+  },
   "devDependencies": {
     "commander": "^10.0.0",
     "esbuild": "^0.17.15",
